@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #ffffff;
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro', 'Meiryo', 'メイリオ', sans-serif;
+  background-color: #ff92e7;
+  font-family: 'Hachi Maru Pop', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,10 +19,11 @@ body {
 }
 
 .message {
-  color: #000000;
-  font-size: 3rem;
   font-weight: bold;
   animation: fadeIn 0.8s ease-in;
+  color: #fff;
+  text-shadow: 0 0 2rem #f9ff00;
+  font-size: 5rem;
 }
 
 @keyframes fadeIn {
@@ -41,3 +42,5 @@ body {
     font-size: 2rem;
   }
 }
+
+
